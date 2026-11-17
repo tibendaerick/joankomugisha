@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hon. Komugisha Joan | Mubende, Uganda</title>
+<meta name="description" content="Community leader and mobilizer empowering women and youth in Greater Mubende, Uganda.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <a class="brand" href="#top"> Hon. Komugisha Joan</a>
+  <nav>
+    <a href="#about" data-i18n="nav_about">About</a>
+    <a href="#impact" data-i18n="nav_impact">Impact</a>
+    <a href="#news" data-i18n="nav_news">News</a>
+    <a href="#gallery" data-i18n="nav_gallery">Gallery</a>
+    <a href="#contact" data-i18n="nav_contact">Contact</a>
+  </nav>
+  <button id="lang" class="lang" aria-label="Switch language">EN | LG</button>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-text">
+    <p class="kicker">Greater Mubende, Uganda</p>
+    <h1>Skills for every woman and young person in Mubende.</h1>
+    <p class="lead" data-i18n="hero_tag">Community leader, mobilizer and advocate for women and youth across Greater Mubende.</p>
+    <div class="btns">
+      <a class="btn solid" href="#contact" data-i18n="cta_contact">Get in touch</a>
+      <button class="btn line" id="open-chat" data-i18n="cta_chat">Ask her assistant</button>
+    </div>
+  </div>
+  <figure class="portrait"><img src="images/portrait.jpg" alt="Hon. Komugisha Joan"></figure>
+</section>
+
+<section class="stats" id="impact"><div class="wrap" id="stats"></div></section>
+
+<section class="wrap about" id="about">
+  <h2>Her story</h2>
+  <p class="big">Daughter of Brig. Gen. Tarkiwa Francis M. and the late Capt. Joy Mweteise, Hon. Komugisha Joan has spent over a decade mobilizing communities against poverty including youth, women and families.</p>
+  <div class="roles">
+    <article><h3>Chairperson</h3><p>Greater Mubende Women Association. Over 30,000 women across five districts.</p></article>
+    <article><h3>Director</h3><p>Joy Vocational Center. Free skills for youth and women in Mubende Municipality.</p></article>
+    <article><h3>Chairperson</h3><p>Children of Soldiers Association. Education and mentorship in the barracks.</p></article>
+    <article><h3>PLU Mobilizer</h3><p>Greater Mubende. Teaching the PLU pillars at all levels including ghettos, women etcetera.</p></article>
+    <article><h3>Head Patron</h3><p>International Consensus Center. Socio-economic development and collaboration.</p></article>
+    <article><h3>Travel Consultant</h3><p>Degree in Tourism and Operations Management, Nkumba University.</p></article>
+    <article><h3>Speaker</h3><p>Tukazane Ghetto Structure. Over 15 ghetto communities in Mubende Municipality</p></article>
+  </div>
+</section>
+
+<section class="mapsec wrap">
+  <div>
+    <h2>Where she works</h2>
+    <p>Tap a district to see what happens there.</p>
+    <p id="map-info" class="map-info">Mubende is the home base.</p>
+  </div>
+  <svg id="map" viewBox="0 0 100 100" role="img" aria-label="Sketch map of the five districts"></svg>
+</section>
+
+<section class="wrap vision">
+  <h2>What she is building</h2>
+  <ul>
+    <li><strong>Ghetto youth upliftment.</strong> 640 youth groups trained to run self-sustaining businesses.</li>
+    <li><strong>Women's economic empowerment.</strong> Financial literacy and income-generating work for women across Uganda.</li>
+    <li><strong>Community sensitization.</strong> Fighting corruption, protecting security, working productively.</li>
+    <li><strong>Revival of military families.</strong> Education and skills for soldiers' children.</li>
+  </ul>
+</section>
+
+<section class="wrap" id="news"><h2>News and events</h2><div id="news-list" class="news"></div></section>
+
+<section class="wrap"><h2>Videos</h2><div id="videos" class="videos"></div></section>
+
+<section class="wrap" id="gallery"><h2>Gallery</h2><div id="grid" class="grid"></div></section>
+
+<section class="partner">
+  <div class="wrap">
+    <h2>Partner with her</h2>
+    <p>Sponsor skilling equipment. Fund transport and logistics. Back community sensitization and media campaigns.</p>
+  </div>
+</section>
+
+<section class="wrap contact" id="contact">
+  <h2>Contact</h2>
+  <div class="contact-grid">
+    <div>
+      <a class="btn solid wa" id="wa" target="_blank" rel="noopener">Chat on WhatsApp</a>
+      <p id="c-email"></p><p id="c-addr"></p>
+      <div id="social" class="social"></div>
+    </div>
+    <form id="form">
+      <input name="name" placeholder="Your name" required>
+      <input name="contact" placeholder="Phone or email" required>
+      <textarea name="msg" rows="4" placeholder="How can we work together?" required></textarea>
+      <button class="btn solid" type="submit">Send via WhatsApp</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer><p>© 2026 Komugisha Joan. Greater Mubende, Uganda.</p></footer>
+
+<!-- Chatbot -->
+<button id="chat-fab" class="fab" aria-label="Open chat">Ask</button>
+<aside id="chat" class="chat" hidden>
+  <div class="chat-head"><span>Ask about Hon. Joan</span><button id="chat-x" aria-label="Close chat">×</button></div>
+  <div id="log" class="log"></div>
+  <div id="chips" class="chips"></div>
+  <form id="chat-form"><input id="q" autocomplete="off"><button>Send</button></form>
+</aside>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
