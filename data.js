@@ -1,7 +1,7 @@
 /* ============ EDIT HERE: all site content lives in this file ============ */
 const SITE = {
   name: "Hon. Komugisha Joan",
-  whatsapp: "256703817322",            // digits only, no +
+  whatsapp: "256755777424",            // digits only, no +
   email: "jojopati013@gmail.com",
   address: "Greater Mubende",
   social: {                              // paste real links, empty ones are hidden
