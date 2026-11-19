@@ -11,43 +11,42 @@ const SITE = {
 
 // Impact numbers. "plus" adds the + sign.
 const STATS = [
-  { n: 30000, plus: true, label: "women in her association" },
-  { n: 640,   plus: true, label: "ghetto youth mobilized" },
-  { n: 3000,  plus: true, label: "people trained for free" },
+  { n: 32000, plus: true, label: "Women beneficiaries in her association" },
+  { n: 646,   plus: true, label: "ghetto Youth mobilized and skilling" },
+  { n: 3600,  plus: true, label: "People trained for free" },
   { n: 72,    plus: false, label: "Local Councils reached" },
-  { n: 5,     plus: false, label: "districts served" }
+  { n: 5,     plus: false, label: "Districts served" }
 ];
 
 // Map points (x,y are 0-100, a simple sketch, not to scale)
 const DISTRICTS = [
-  { name: "Mubende",    x: 40, y: 60, text: "Home base. Joy Vocational Center and the ghetto youth hubs are here." },
-  { name: "Kasanda",    x: 36, y: 30, text: "Part of the Greater Mubende Women Association network." },
-  { name: "Kyankwanzi", x: 66, y: 20, text: "Women's economic empowerment and mobilization." },
-  { name: "Kiboga",     x: 74, y: 48, text: "Women's economic empowerment and mobilization." },
-  { name: "Mityana",    x: 70, y: 80, text: "Part of the Greater Mubende Women Association network." }
+  { name: "Mubende",    x: 40, y: 60, text: "Home Base. Joy Vocational Center, Tukazane Ghetto Structure, PLU Mobilization and skilling programmes." },
+  { name: "Kassanda",    x: 36, y: 30, text: "Part of the Greater Mubende Women Association network, skilling programmes, PLU Mobilzation." },
+  { name: "Kyankwanzi", x: 66, y: 20, text: "Women's economic empowerment, ghetto youth groups and PLU Mobilization." },
+  { name: "Kiboga",     x: 74, y: 48, text: "Women's economic empowerment and PLU Mobilization, ." },
+  { name: "Mityana",    x: 70, y: 80, text: "Part of the Greater Mubende Women Association network and PLU Mobilization." }
 ];
 
 // Photos: drop files in /images and list them here.
 const GALLERY = [
   { src: "images/gallery-01.jpg", cap: "Community meeting" },
-  { src: "images/gallery-02.jpg", cap: "With women's groups" },
-  { src: "images/gallery-03.jpg", cap: "Mobilization rally" },
-  { src: "images/gallery-04.jpg", cap: "Listening to the community" },
-  { src: "images/gallery-05.jpg", cap: "Youth programs" },
-  { src: "images/gallery-06.jpg", cap: "Partners and leaders" },
-  { src: "images/gallery-07.jpg", cap: "Grassroots outreach" },
-  { src: "images/gallery-08.jpg", cap: "Community gathering" },
-  { src: "images/gallery-09.jpg", cap: "Schools and children" },
-  { src: "images/gallery-10.jpg", cap: "Women's association" },
-  { src: "images/gallery-11.jpg", cap: "Field visit" },
-  { src: "images/gallery-12.jpg", cap: "Supporters" }
+  { src: "images/gallery-02.jpg", cap: "Women Groups" },
+  { src: "images/gallery-03.jpg", cap: "Mobilization Rally" },
+  { src: "images/gallery-04.jpg", cap: "Ghetto MK Army" },
+  { src: "images/gallery-05.jpg", cap: "PLU Programme" },
+  { src: "images/gallery-06.jpg", cap: "Partners and Leaders" },
+  { src: "images/gallery-07.jpg", cap: "Village Endorsements" },
+  { src: "images/gallery-08.jpg", cap: "MDD" },
+  { src: "images/gallery-09.jpg", cap: "Construction Field Visit" },
+  { src: "images/gallery-10.jpg", cap: "Tukazane Ghetto Structure" },
+  { src: "images/gallery-11.jpg", cap: "Hon. Komugisha Joan" },
 ];
 
 // Videos: paste a YouTube link (watch?v=...). Leave empty to show placeholders.
 const VIDEOS = [
-  { title: "Video coming soon", url: "" },
-  { title: "Video coming soon", url: "" },
-  { title: "Video coming soon", url: "" }
+  { title: "YouTube Video coming soon", url: "" },
+  { title: "YouTube Video coming soon", url: "" },
+  { title: "Youtube Video coming soon", url: "" }
 ];
 
 // News: newest first. SAMPLE items, replace with real ones.
